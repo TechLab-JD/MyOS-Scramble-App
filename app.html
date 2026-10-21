@@ -1,0 +1,16 @@
+<div class="app-window" id="ScrambleApp">
+  <div class="app-header"><span class="app-title">🔤 Word Scramble</span><div class="app-controls"><button class="minimize-btn">–</button><button class="close-btn">×</button></div></div>
+  <div class="app-content">
+    <div class="wrap" style="text-align:center">
+      <div class="res" id="sc-word" style="letter-spacing:6px;font-size:30px">- - -</div>
+      <div class="muted" id="sc-hint"></div>
+      <div class="row" style="justify-content:center"><input id="sc-in" placeholder="your answer" style="width:160px"><button id="sc-go">Check</button></div>
+      <div class="res" id="sc-msg" style="font-size:16px">&nbsp;</div>
+      <div class="row" style="justify-content:center">
+        <button id="sc-reveal" style="background:transparent;border:1px solid var(--muted-bg,#444);color:var(--text,#eee)">Reveal</button>
+        <button id="sc-next">Next word</button></div>
+      <div class="muted">Score: <span id="sc-score">0</span></div>
+    </div>
+  </div>
+  <div class="resize-handle"></div>
+</div>
